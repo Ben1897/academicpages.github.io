@@ -11,30 +11,34 @@ redirect_from:
 
 Education
 ======
-* B.S. in Github, Github University, 2012
-* M.S. in Jekyll, Github University, 2014
-* Ph.D in Version Control Theory, Github University, 2018 (expected)
+* B.E. in Water Resources and Ocean Engineering, Zhejiang University, 2011
+* M.Phil. in Civil and Environmental Engineering, Hong Kong University of Science and Technology, 2013
+* Ph.D in Civil and Environmental Engineering, University of Illinois at Urbana-Champaign, 2019 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Graduate Research Assistant (Aug. 2014 - present)
+  * University of Illinois at Urbana-Champaign
+  * Supervisor: Prof. Praveen Kumar
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Research Assistant (Jan. 2014 - Jun. 2014)
+  * Hong Kong University of Science & Technology
+  * Supervisor: Prof. Yeou-Koung Tung
+  
+* Graduate Research Assistant (Feb. 2012 - Dec. 2013)
+  * Hong Kong University of Science & Technology
+  * Supervisor: Prof. Yeou-Koung Tung
+
+* Researcher (Sep. 2011 - Dec. 2011)
+  * Zhejiang University
+  * Supervisor: Prof. Yueping Xu
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming Language: Python, Matlab, C, CUDA, Fortran, JavaScript, Scala, R, LATEX.
+* Software: Mathematica, SAS, Minitab, Surfer, AutoCAD.
+* Web Technology: RESTful web service, service-oriented architecture, semantic web technology,
+SQL database, basic web application design.
 
 Publications
 ======
@@ -42,18 +46,8 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
+Presentations
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
+  <ul>{% for post in site.presentations %}
+    {% include archive-single-representation-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
